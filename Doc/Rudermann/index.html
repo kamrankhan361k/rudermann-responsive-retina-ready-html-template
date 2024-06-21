@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>Rudermann Responsive HTML Template / Dovumentation</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+			 <a class="brand" href="#">Rudermann Template / Documentation 1.0</a>
+			 <div class="navbar-content">
+				<ul class="nav pull-right">
+					<li><a href="#info">Info</a></li>
+					<li><a href="#scaffolding">Scaffolding</a> </li>
+					<li><a href="#shortcodes">Shortcodes</a></li>
+					<li><a href="#how">How To</a></li>
+				</ul>
+			 </div>
+			</div>
+		</div>
+	 </div>
+	 <div class="container">
+		<div id="info" class="page-header"><br><br>
+			<h1>Rudermann Responsive HTML Template</h1>
+		</div>
+		<div class="row">
+			<div class="span4">
+			 <p class="muted author">Version: 1.1
+				<br> Created: 18.12.2012
+				<br> Author: Ilya Sidelnikov &amp; TVDA.
+				<br> Website:
+				<a href="http://themes.tvda.eu" target="_blank">themes.tvda.eu</a>
+				<br> Support: themes@tvda.eu 
+			 </p>
+			</div>
+			<div class="span8"></div>
+		</div>
+		<hr>
+		<p class="lead">Rudermann is the awesome pixel-perfect responsive HTML template based
+			on Twitter Bootstrap Grid System. It is optimized for Retina Displays (used
+			in iPhone, iPad, iPod Touch and MacBook Pro Retina). Best for the digital
+			or creative agency, design studio, web-development company or freelancer.
+			Template is provides a powerful way to showcase your work.&nbsp;</p>
+		<hr>
+		<p></p>
+		<div class="row">
+			<div class="span7">
+			 <h4>Features:</h4>
+			 <p>Fully Responsive, Retina Ready, Dark (original) and Light versions, Hero
+				Carousel Slider, 3D Cute Slider (
+				<b>$12 value</b>), FlexSlider 2, Isotope Portfolio (
+				<b>$25 value</b>), Fancybox Lightbox Clone&nbsp;(
+				<b>$19 value</b>), Over 250+ font-icons, Contact form, Countdown, Shortcodes,
+				HTML5 and CSS3.</p>
+			</div>
+			<div class="span5">
+			 <h4>Structure</h4>
+			 <p>
+				<b>Docs</b> - documentation.
+				<br>
+				<b>HTML/Dark (Original)</b> - dark version.
+				<br>
+				<b>HTML/Light</b> - light version.
+				<br>
+				<b>PSD</b> - PSD files for dark version</p>
+			 <p></p>
+			 <p></p>
+			</div>
+		</div>
+		<div class="row"><hr class="span12"></div>
+		<div class="row">
+			<div class="span6">
+				<h4>JavaScripts</h4>
+				<b>jquery.easing-1.3.js</b> - a jQuery plugin from GSGD to give advanced easing options.<br>
+				<b>main.js</b> - hover effects.<br>
+				<b>shortcodes.js</b> - shortcodes.<br>
+				<b>jquery.fancybox.pack.js</b> - FancyBox lightbox clone.<br>
+				<b>jquery.fancybox-media.js</b> - media helper for FancyBox.<br>
+				<b>jquery.isotope.min.js</b> - Isotope.<br>
+				<b>mql.js</b> - Isotope fix for Twitter Bootstrap Grid system.<br>
+				<b>last-tw.js</b> - Twitter feed.<br>
+				<b>jflickrfeed.js</b> - Flickr photostream.<br>
+				<b>jflickrfeed-setup.js</b> - settings for Flickr photostreamjquery.<br>
+				<b>fittext.js</b> - FitText makes font-sizes flexible<br>
+				<b>contact.js</b> - errors for contact form.jquery.<br>
+				<b>flexslider.js</b> -FlexSlider 2.<br>
+				<b>selectnav.min.js</b> - select navigation for mobile.<br>
+				<b> phones.settings.js</b> - main settings for JS plugins.<br>
+				<b>hero</b> - HeroCarousel slider.<br>
+				<b>cute</b> - Cute Slider.<br>
+				<b>countdown</b> - Countdown.
+			</div>
+			<div class="span6">
+				<h4>CSS Files</h4>
+				<b>base.css</b> - import main CSS files.<br>
+				<b>normalize.css</b> - HTML5-ready alternative to CSS resets.<br>
+				<b>grid.css</b> - Twitter Bootstrap Grid System.<br>
+				<b>layout.css</b> - main CSS styles.<br>
+				<b>font-awesome.css</b> - icons Font Awesome More 2.0.<br>
+				<b>shortcodes.css</b> - styles for shortcodes.<br>
+				<b>countdown.css</b> - Countdown.<br>
+				<b>flexslider.css</b> - FlexSlider 2.<br>
+				<b>jquery.heroCarousel.css</b> - Hero Carousel.<br>
+				<b>cute-slider.css</b> - Cute Sldier.<br>
+				<b>isotope.css</b> - Isotope for Twitter Bootstrap Grid System.<br>
+				<b>jquery.fancybox.css</b> - FancyBox Lightbox clone.<br>
+				<b>mediaqueries.css</b> - Media Queries for responsive design.<br>
+			</div>
+		</div>
+		<div class="row"><br><hr class="span12"></div>
+		<div id="scaffolding" class="row">
+			<div class="span12"><br>
+				<div class="page-header">
+					<h2>Scaffolding</h2>
+				</div>
+				<h3>Layouts</h3>
+				<p>Provides a common fixed-width (and optionally responsive) layout with only <code>&lt;div class="container"&gt;</code> required.</p>
+				<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;body&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"container"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln"> ...</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L4"><span class="tag">&lt;/body&gt;</span></li></ol></pre>
+				<hr>
+				<h3>Basic grid HTML</h3>
+				<p>For a simple two column layout, create a <code>.row</code> and add the appropriate number of <code>.span*</code> columns. As this is a 12-column grid, each <code>.span*</code> spans a number of those 12 columns, and should always add up to 12 for each row (or the number of columns in the parent).</p>
+				<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"span4"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"span3 offset2"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+				<hr>
+				<h3>Offsetting columns</h3>
+				<p>Move columns to the right using <code>.offset*</code> classes. Each class increases the left margin of a column by a whole column. For example, <code>.offset4</code> moves <code>.span4</code> over four columns.</p>
+				<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"span4"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"span3 offset2"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+				<hr>
+				<h3>Offsetting columns</h3>
+				<p>For faster mobile-friendly development, use these utility classes for showing and hiding content by device. Below is a table of the available classes and their effect on a given media query layout (labeled by device).</p>
+				<table class="table table-bordered table-striped responsive-utilities"> <thead> <tr> <th>Class</th> <th>Phones <small>767px and below</small></th> <th>Tablets <small>979px to 768px</small></th> <th>Desktops <small>Default</small></th> </tr> </thead> <tbody> <tr> <th><code>.visible-phone</code></th> <td class="is-visible">Visible</td> <td class="is-hidden">Hidden</td> <td class="is-hidden">Hidden</td> </tr> <tr> <th><code>.visible-tablet</code></th> <td class="is-hidden">Hidden</td> <td class="is-visible">Visible</td> <td class="is-hidden">Hidden</td> </tr> <tr> <th><code>.visible-desktop</code></th> <td class="is-hidden">Hidden</td> <td class="is-hidden">Hidden</td> <td class="is-visible">Visible</td> </tr> <tr> <th><code>.hidden-phone</code></th> <td class="is-hidden">Hidden</td> <td class="is-visible">Visible</td> <td class="is-visible">Visible</td> </tr> <tr> <th><code>.hidden-tablet</code></th> <td class="is-visible">Visible</td> <td class="is-hidden">Hidden</td> <td class="is-visible">Visible</td> </tr> <tr> <th><code>.hidden-desktop</code></th> <td class="is-visible">Visible</td> <td class="is-visible">Visible</td> <td class="is-hidden">Hidden</td> </tr> </tbody> </table>
+				<hr><br>
+				<div id="shortcodes" class="page-header">
+					<h2>Shortcodes</h2>
+				</div>
+				<h3>Alerts</h3>
+				<p>Wrap any text and an optional dismiss button in <code>.alert</code> for a basic warning alert message. For longer messages, increase the padding on the top and bottom of the alert wrapper by adding <code>.alert-block</code>. Add optional classes <code>.alert-error</code>, <code>.alert-success</code> and <code>.alert-info</code> to change an alert's connotation.</p>
+				<img src="img/alerts.jpg" alt="" /><br><br>
+<pre>&lt;div class="alert"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert"&gt;×&lt;/button&gt;
+	&lt;strong&gt;Warning!&lt;/strong&gt; Best check yo self, you're not looking too good.
+&lt;/div&gt;
+
+&lt;div class="alert alert-error"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert"&gt;×&lt;/button&gt;
+	&lt;strong&gt;Oh snap!&lt;/strong&gt; Change a few things up and try submitting again.
+&lt;/div&gt;
+
+&lt;div class="alert alert-success"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert"&gt;×&lt;/button&gt;
+	&lt;strong&gt;Well done!&lt;/strong&gt; You successfully read this important alert message.
+&lt;/div&gt;
+
+&lt;div class="alert alert-info margin"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert"&gt;×&lt;/button&gt;
+	&lt;strong&gt;Heads up!&lt;/strong&gt; This alert needs your attention, but it's not super important.
+&lt;/div&gt;</pre>
+				<hr>
+				<h3>Tabs</h3>
+				<img src="img/tabs.jpg" alt="" /><br><br>
+<pre>&lt;div class="tabs"&gt;
+	&lt;ul&gt;
+		&lt;li id="tab1" class="current"&gt;Tab 1&lt;/li&gt;
+		&lt;li id="tab2"&gt;Tab 2&lt;/li&gt;
+		&lt;li id="tab3"&gt;Tab 3&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div class="tab-content-wrp"&gt;
+		&lt;div id="tab1-content" class="tab-content active"&gt;
+			&lt;p&gt;Tab 1 Content&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div id="tab2-content" class="tab-content"&gt;
+			&lt;p&gt;Tab 2 Content&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div id="tab3-content" class="tab-content"&gt;
+			&lt;p&gt;Tab 3 Content&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+				<hr>
+				<h3>Accordion and Toggle</h3>
+				<img src="img/accordion.jpg" alt="" /><br><br>
+<pre>&lt;div class="accordion"&gt;
+	&lt;div class="accordion-wrp"&gt;
+		&lt;h6&gt;Title 1 &lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/h6&gt;
+		&lt;div class="accordion-content"&gt;
+			&lt;p&gt;Content 1&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="accordion-wrp"&gt;
+		&lt;h6&gt;Title 2 &lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/h6&gt;
+		&lt;div class="accordion-content"&gt;
+			&lt;p&gt;Content 2&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="accordion-wrp"&gt;
+		&lt;h6&gt;Title 3 &lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/h6&gt;
+		&lt;div class="accordion-content"&gt;
+			&lt;p&gt;Content 3&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre><br>
+<pre>&lt;div class="toggle"&gt;
+	&lt;div class="toggle-wrp"&gt;
+		&lt;h6&gt;Title 1 &lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/h6&gt;
+		&lt;div class="toggle-content"&gt;
+			&lt;p&gt;Content 1&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="toggle-wrp"&gt;
+		&lt;h6&gt;Title 2 &lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/h6&gt;
+		&lt;div class="toggle-content"&gt;
+			&lt;p&gt;Content 2&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="toggle-wrp"&gt;
+		&lt;h6&gt;Title 3 &lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/h6&gt;
+		&lt;div class="toggle-content"&gt;
+			&lt;p&gt;Content 3&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+				<hr>
+				<h3>Blockquote</h3>
+				<p>Use classes <code>.big</code>, <code>.small</code> for big and small blockquotes.<p>
+				<img src="img/blockquote.jpg" alt="" /><br><br>
+<pre>&lt;blockquote&gt;
+	&lt;p&gt;If everyone demanded peace instead of another television set, then there’d be peace.&lt;/p&gt;
+	&lt;small&gt;John Lennon&lt;/small&gt;
+&lt;/blockquote&gt;
+</pre>
+
+
+				<hr>
+				<h3>Buttons</h3>
+				<p>Button styles can be applied to anything with the <code>.btn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements for the best rendering. Use classes <code>.small</code>, <code>.large</code>, <code>.color</code>, <code>.dark</code>, <code>.rounded</code> for optional styles.<p>
+				<img src="img/buttons.jpg" alt="" /><br><br>
+<pre>&lt;button class="btn small"&gt;small button&lt;/button&gt;
+&lt;button class="btn small color"&gt;small button&lt;/button&gt;
+&lt;button class="btn small dark"&gt;small button&lt;/button&gt;
+&lt;button class="btn"&gt;medium button&lt;/button&gt;
+&lt;button class="btn color"&gt;meduim button&lt;/button&gt;
+&lt;button class="btn dark"&gt;medium button&lt;/button&gt;
+&lt;button class="btn large"&gt;large button&lt;/button&gt;
+&lt;button class="btn large color"&gt;large button&lt;/button&gt;
+&lt;button class="btn large dark"&gt;large button&lt;/button&gt;
+&lt;button class="btn rounded small"&gt;small button&lt;/button&gt;
+&lt;button class="btn rounded small color"&gt;small button&lt;/button&gt;
+&lt;button class="btn rounded small dark"&gt;small button&lt;/button&gt;
+&lt;button class="btn rounded"&gt;medium button&lt;/button&gt;
+&lt;button class="btn rounded color"&gt;meduim button&lt;/button&gt;
+&lt;button class="btn rounded dark"&gt;medium button&lt;/button&gt;
+&lt;button class="btn rounded large"&gt;large button&lt;/button&gt;
+&lt;button class="btn rounded large color"&gt;large button&lt;/button&gt;
+&lt;button class="btn rounded large dark"&gt;large button&lt;/button&gt;
+</pre>
+
+				<hr>
+				<h3>Tables</h3>
+				<p>For basic styling—light padding and only horizontal dividers—add the base class <code>.table</code> to any <code>&lt;table&gt;</code>. Add any of the following classes to the <code>.table</code> base class.</p>
+				<p>Adds zebra-striping to any table row within the <code>&lt;tbody&gt;</code> via the <code>:nth-child</code> CSS selector.</p>
+				<p>Add borders and rounded corners to the table <code>.table-bordered</code>.</p>
+				<p>Enable a hover state on table rows <code>.table-hover</code>.</p>
+				<img src="img/tables.jpg" alt="" />
+				
+				<hr>
+				<h3>Forms</h3>
+				<p>Individual form controls receive styling, but without any required base class on the <code>&lt;form&gt;</code> or large changes in markup. Results in stacked, left-aligned labels on top of form controls. Add <code>.form-inline</code> for left-aligned labels and inline-block controls for a compact layout.</p>
+				<p>Right align labels and float them to the left to make them appear on the same line as controls. Requires the most markup changes from a default form:</p>
+				<ul> <li>Add <code>.form-horizontal</code> to the form</li> <li>Wrap labels and controls in <code>.control-group</code></li> <li>Add <code>.control-label</code> to the label</li> <li>Wrap any associated controls in <code>.controls</code> for proper alignment</li> </ul>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-horizontal"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"control-group"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;label</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"control-label"</span><span class="pln"> </span><span class="atn">for</span><span class="pun">=</span><span class="atv">"inputEmail"</span><span class="tag">&gt;</span><span class="pln">Email</span><span class="tag">&lt;/label&gt;</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"controls"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"inputEmail"</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Email"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"control-group"</span><span class="tag">&gt;</span></li><li class="L8"><span class="pln"> </span><span class="tag">&lt;label</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"control-label"</span><span class="pln"> </span><span class="atn">for</span><span class="pun">=</span><span class="atv">"inputPassword"</span><span class="tag">&gt;</span><span class="pln">Password</span><span class="tag">&lt;/label&gt;</span></li><li class="L9"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"controls"</span><span class="tag">&gt;</span></li><li class="L0"><span class="pln"> </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"password"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"inputPassword"</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Password"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L3"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"control-group"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln"> </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"controls"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln"> </span><span class="tag">&lt;label</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"checkbox"</span><span class="tag">&gt;</span></li><li class="L6"><span class="pln"> </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"checkbox"</span><span class="tag">&gt;</span><span class="pln"> Remember me</span></li><li class="L7"><span class="pln"> </span><span class="tag">&lt;/label&gt;</span></li><li class="L8"><span class="pln"> </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"submit"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn"</span><span class="tag">&gt;</span><span class="pln">Sign in</span><span class="tag">&lt;/button&gt;</span></li><li class="L9"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L0"><span class="pln"> </span><span class="tag">&lt;/div&gt;</span></li><li class="L1"><span class="tag">&lt;/form&gt;</span></li></ol></pre>
+			</div>
+		</div>
+		
+		
+		<div class="row"><br><hr class="span12"></div>
+		<div id="how" class="row">
+			<div class="span12"><br>
+				<div class="page-header">
+					<h2>How To</h2>
+				</div>
+				<h5>How change username of Twitter feed?</h5>
+				<p>Find string in HTML file <code>loadScript("https://api.twitter.com/1/statuses/user_timeline/envato.json?callback=twitterCallback2&count=2");</code> and change <code>envato</code> to your username.</p>
+				<hr>
+				<h5>How change Flickr feed?</h5>
+				<p>Open file jflickrfeed-setup.js and change ID <code>32815517@N00</code> to your ID. <a href="http://idgettr.com">Get Flickr ID</a>.</p>
+				<hr>
+				<h5>How set date in Countdown?</h5>
+				<p>Open file countdown.html and change date and time <code>data-to-date="2013:05:16:06:00:05"</code> of div <code>.countDownClock</code>.</p>
+				<hr>
+				<h5>How add link at FancyBox?</h5>
+				<p><code>&lt;a class="fancybox" rel="GALLERY_ID" href="YOUR_LINK"&gt;&lt;/a&gt;</code></p>
+				<hr>				
+				<h5>How change contact e-mail?</h5>
+				<p>contact_config.php</p>
+				<hr>
+				
+			</div>
+		</div>
+		
+		
+		<div class="row"><br><hr class="span12"></div>
+		<div id="how" class="row">
+			<div class="span12"><br>
+				<div class="page-header">
+					<h2>Credits</h2>
+				</div>
+				Twitter Bootstrap http://twitter.github.com/bootstrap/<br>
+				FlexSlider http://flexslider.woothemes.com<br>
+				HeroCarousel http://www.paulwelsh.info/jquery-plugins/hero-carousel/<br>
+				Cute Slider http://www.cuteslider.com<br>
+				Isotope http://isotope.metafizzy.co<br>
+				FitText http://fittextjs.com<br>
+				Font Awesome More http://gregoryloucas.github.com/Font-Awesome-More/<br>
+				Flickr Feed http://www.gethifi.com/blog/a-jquery-flickr-feed-plugin<br>
+				SelectNav http://lukaszfiszer.github.com/selectnav.js/<br>
+				FancyBox http://fancyapps.com/fancybox/<br>
+				Prefix Free http://leaverou.github.com/prefixfree/<br><br><br><br>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
